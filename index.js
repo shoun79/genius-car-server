@@ -145,3 +145,6 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`genius-car-server is running on port ${port}`)
 })
+
+
+module.exports = app;
